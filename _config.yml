@@ -2,7 +2,7 @@
 title: PHOTORAMA
 email: ""
 description: "Photo Journal"
-url: "https://sunbliss.github.io"
+url: "https://junothecat12.github.io"
 baseurl: "/photorama"
 facebook_username: ""
 twitter_username: ""
@@ -16,7 +16,7 @@ share: true
 # Owner/author information
 owner:
   name:   photorama
-  avatar: avatar.png
+  avatar: juno.png
   favicon: favicon.ico
   info: photography website template
 
@@ -34,8 +34,8 @@ comments :
 # Internal nav
 nav:
   - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  # - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
+  # - ABOUT: "https://sunbliss.github.io/photorama/about/"
 
 # All translation keys
 translations:
