@@ -33,6 +33,7 @@ comments :
 
 # Internal nav
 nav:
+  - HOME: "https://junothecat12.github.io/juno-photobook"  
   - GALLERY: "https://junothecat12.github.io/juno-photobook/gallery/"  
   # - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
   # - ABOUT: "https://sunbliss.github.io/photorama/about/"
