@@ -48,7 +48,8 @@ images:
  - image_path: /gallery/archive/g01/IMG_1986.jpeg
    caption: 
    copyright: 
- - image_path: /gallery/archive/g01/IMG_1133.MP4
+- videos:
+ - video_path: /gallery/archive/g01/IMG_1133.MP4
    caption:
    copyright: 
 ---
@@ -87,6 +88,24 @@ images:
 				</figure>
 				
 {% endfor %}
+
+<!-- loop over all videos -->
+{% for video in page.videos %}  		
+
+        <figure class="gallery-item">
+          <header class='gallery-icon'>
+            <video width="320" height="240" controls>
+              <source src="{{ site.url }}{{ site.baseurl }}{{ video.video_path }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </header>
+          <figcaption class='gallery-caption'>
+            <div class="entry-summary" id="{{ video.caption }}">
+              <h3>{{video.caption}}</h3>
+              <p>{{video.description}}</p>
+            </div>
+          </figcaption>
+        </figure>
 
 			</div>
 
