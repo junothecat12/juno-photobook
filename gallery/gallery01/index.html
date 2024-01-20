@@ -50,15 +50,53 @@ images:
    copyright: 
  - image_path: /gallery/archive/g01/IMG_1137.JPG
    caption:
-   copyright:
+   copyright: 
  - image_path: /gallery/archive/g01/IMG_1211.JPG
    caption:
-   copyright:
+   copyright: 
  - image_path: /gallery/archive/g01/IMG_1223.JPG
    caption:
-   copyright:
-- videos:
- - video_path: /gallery/archive/g01/IMG_1133.MP4
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_1376.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_1408.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_1602.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_1633.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_1768.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_1920.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_1951.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_1987.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_1998.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_2041.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_2061.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_2165.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_2463.JPG
+   caption:
+   copyright: 
+ - image_path: /gallery/archive/g01/IMG_2505.JPG
    caption:
    copyright: 
 ---
@@ -98,25 +136,6 @@ images:
 				
 {% endfor %}
 
-<!-- loop over all videos -->
-{% for video in page.videos %}  		
-
-        <figure class="gallery-item">
-          <header class='gallery-icon'>
-            <video width="320" height="240" controls>
-              <source src="{{ site.url }}{{ site.baseurl }}{{ video.video_path }}" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </header>
-          <figcaption class='gallery-caption'>
-            <div class="entry-summary" id="{{ video.caption }}">
-              <h3>{{video.caption}}</h3>
-              <p>{{video.description}}</p>
-            </div>
-          </figcaption>
-        </figure>
-
-{% endfor %}
 			</div>
 
 		</div><!-- END .wrapper -->
